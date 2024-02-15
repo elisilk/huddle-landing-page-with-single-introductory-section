@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/elisilk/huddle-landing-page-with-single-introductory-section)
-- Live Site URL: [Add live site URL here](https://elisilk.github.io/huddle-landing-page-with-single-introductory-section/)
+- Solution URL: [https://github.com/elisilk/huddle-landing-page-with-single-introductory-section](https://github.com/elisilk/huddle-landing-page-with-single-introductory-section)
+- Live Site URL: [https://elisilk.github.io/huddle-landing-page-with-single-introductory-section/](https://elisilk.github.io/huddle-landing-page-with-single-introductory-section/)
 
 ## My process
 
@@ -82,7 +82,7 @@ Whoops, I didn't pay enough attention to the one of the key aspects of the chall
 - the footer links
 - anything else?
 
-And now that I see how they compare your solution to the design, I will spend a little more time getting the spacing so it better aligns with the design.
+And now that I see how Frontend Mentor does a ["design comparison"](https://www.frontendmentor.io/solutions/responsive-landing-page-w-bkgd-image-icons-and-css-custom-properties-ddb86IDU28) with a screenshot of your solution compared to the design, I will spend a little more time getting the spacing so it better aligns with the design.
 
 ### Useful resources
 
