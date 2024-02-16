@@ -33,6 +33,11 @@ img {
   display: block;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 html {
   font-family: var(--ff-body);
   font-weight: var(--fw-normal);
@@ -40,9 +45,14 @@ html {
   color: var(--clr-white);
 
   background-image: url(images/bg-mobile.svg);
-  background-size: auto 100%;
-  background-position-x: 0 0;
+  //background-size: auto 100%;
+  background-position-x: top;
+  background-position-y: left;
   background-repeat: no-repeat;
+  background-size: auto 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-color: var(--clr-violet);
 }
 
@@ -101,12 +111,12 @@ main {
   padding: 0.875rem 4.5rem;
   border-radius: 100vmax;
   box-shadow: 0px 5px 10px rgb(0 0 0 / 25%);
-  transition: all 0.25s ease;
 }
 
 .btn:focus,
 .btn:hover,
 .btn:active {
+  transition: all 0.25s ease;
   color: var(--clr-magenta);
   box-shadow: 0px 10px 5px rgb(0 0 0 / 25%);
   //background-color: var(--clr-neutral-400);
@@ -120,11 +130,23 @@ main {
   gap: var(--gap);
 }
 
-.icon {
+.icon,
+.icon:link,
+.icon:visited {
   display: inline-block;
+  color: var(--clr-white);
   border: 1px solid var(--clr-white);
   border-radius: 50%;
   padding: 0.25em 0.5em;
+  cursor: pointer;
+}
+
+.icon:focus,
+.icon:hover,
+.icon:active {
+  color: var(--clr-magenta);
+  border-color: var(--clr-magenta);
+  transition: all 0.25s ease;
 }
 
 .attribution {
